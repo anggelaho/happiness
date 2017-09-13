@@ -39,6 +39,7 @@ nav {
   background: #64b5f6;
   top:0px;
   padding: 10px;
+  z-index:100;
 }
 
 nav ul{
@@ -112,17 +113,13 @@ nav li a:hover,nav li material-icons.a:hover{
   position:static;
 }
 
-.footer-left {
-  width: 300px;
-  height: auto;
-  float: left;
-  border: 1px solid black;
-}
-
 .footer-box {
-  height: auto;
-  margin: auto;
-  margin-bottom: 20px;
+	width: 20%;
+    height: auto;
+	float: left;
+    position: relative;
+    padding-right: 15px;
+    padding-left: 15px;
 }
 
 .footer-box h6 {
@@ -133,6 +130,7 @@ nav li a:hover,nav li material-icons.a:hover{
   font-weight: bold;
   text-transform: uppercase;
   padding-bottom: 8px;
+	text-decoration:underline;
 }
 
 .footer-box ul {
